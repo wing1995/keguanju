@@ -32,7 +32,7 @@ public class DbInsert {
         Element root = doc.getRootElement(); 
         tableName = root.getName();
         
-        System.out.println("I am reading the table: " + tableName);
+        System.out.println("I am reading the table to postgresql: " + tableName);
         
         
         HashMap records = getData(root);

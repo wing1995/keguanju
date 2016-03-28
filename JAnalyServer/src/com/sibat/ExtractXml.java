@@ -21,7 +21,6 @@ import org.dom4j.io.SAXReader;
 public class ExtractXml {
 	public static class Extract {
 		
-		public static String fileEncode = System.getProperty("file.encoding"); 
 		public static Element condition(BufferedWriter writer, Iterator m) throws IOException {
 			
 			Element node = (Element) m.next();
@@ -49,11 +48,11 @@ public class ExtractXml {
 	            Document doc = DocumentHelper.parseText(xmlString);
 	            //读取根节点
 	            Element root = doc.getRootElement(); 
-	            System.out.println("I am reading the table: " + root.getName());
+	            System.out.println("I am reading the table to file: " + root.getName());
 	   
 	            //开始迭代子节点
 	            for (Iterator i = root.elementIterator(); i.hasNext();){
-	            	Element node1 = condition(writer, i);
+	            	condition(writer, i);
 	            	
 	        } writer.close();
 	        

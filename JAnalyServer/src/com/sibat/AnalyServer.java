@@ -15,7 +15,7 @@ import com.bat.GetProperties;
  * @version1.0.0
  * @since JDK1.8
  * @Date 2016.03.22
- * @update by wing @Date 2016.3.25
+ * @update by wing @Date 2016.3.28
  *************************************************************/
 public class AnalyServer {
 	
@@ -92,7 +92,7 @@ public class AnalyServer {
 				  System.out.println("nReserve: " + nReserve);
 				  System.out.println("nLength: " + nLength);
 				  try{
-					  //对传过来的使用gbk编码的字符串执行先解码再编码
+					  //对传过来的使用gbk编码的字符串执行解码
 					  String param =  new String(pParam.getBytes());
 					  System.out.println("param: " + param);
 				} catch (Exception e){
