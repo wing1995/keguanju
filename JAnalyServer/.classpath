@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="E:/programme/PT_Supervise/trunk/JarPacket/jna-4.2.1.jar"/>
-	<classpathentry kind="lib" path="E:/programme/PT_Supervise/trunk/xmlAnalyser/JarPacket/dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="E:/programme/PT_Supervise/trunk/JarPacket/JBATNetSDK.jar"/>
-	<classpathentry kind="lib" path="E:/programme/PT_Supervise/trunk/xmlAnalyser/JarPacket/postgresql-9.4.1208.jre7.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="E:/programme/xmlAnalyser/JarPacket/jna-4.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/programme/xmlAnalyser/JarPacket/dom4j-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/programme/xmlAnalyser/JarPacket/JBATNetSDK.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/programme/xmlAnalyser/JarPacket/postgresql-9.4.1208.jre7.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
